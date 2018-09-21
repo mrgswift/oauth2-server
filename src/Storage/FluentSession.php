@@ -122,6 +122,18 @@ class FluentSession extends AbstractFluentAdapter implements SessionInterface
     }
 
     /**
+     * Delete a session
+     *
+     * @param \League\OAuth2\Server\Entity\SessionEntity $session
+     *
+     * @return void
+     */
+    public function delete(SessionEntity $session) {
+        if ($session instanceof SessionEntity) {
+            $this->getConnection()->table('oauth_sessions')->delete($session->getId());
+        }
+    }
+    /**
      * Associate a scope with a session.
      *
      * @param \League\OAuth2\Server\Entity\SessionEntity $session
