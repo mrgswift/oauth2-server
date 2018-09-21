@@ -7,6 +7,8 @@
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
+ *
+ * Revoke access token function added by Matthew Guillot
  */
 
 namespace LucaDegasperi\OAuth2Server;
@@ -115,6 +117,16 @@ class Authorizer
     public function issueAccessToken()
     {
         return $this->issuer->issueAccessToken();
+    }
+
+    /**
+     * Revoke an access/refresh token if the request parameters are valid.
+     *
+     * @return array a response object for the protocol in use
+     */
+    public function revokeAccessToken()
+    {
+        return $this->issuer->revokeAccessToken();
     }
 
     /**
