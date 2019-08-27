@@ -13,6 +13,7 @@ namespace LucaDegasperi\OAuth2Server\Middleware;
 
 use Closure;
 use League\OAuth2\Server\Exception\InvalidScopeException;
+use use League\OAuth2\Server\Exception\AccessDeniedException;
 use LucaDegasperi\OAuth2Server\Authorizer;
 
 /**
