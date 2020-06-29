@@ -15,12 +15,12 @@
     ],
     "require": {
         "php": ">=7.3.0",
-        "illuminate/database": "6.0.* || 7.0.*",
-        "illuminate/console": "6.0.* || 7.0.*",
-        "illuminate/contracts": "6.0.* || 7.0.*",
-        "illuminate/http": "6.0.* || 7.0.*",
-        "illuminate/support": "6.0.* || 7.0.*",
-        "illuminate/config": "6.0.* || 7.0.*",
+        "illuminate/database": "6.0.* || 7.*",
+        "illuminate/console": "6.0.* || 7.*",
+        "illuminate/contracts": "6.0.* || 7.*",
+        "illuminate/http": "6.0.* || 7.*",
+        "illuminate/support": "6.0.* || 7.*",
+        "illuminate/config": "6.0.* || 7.*",
         "mrgswift/oauth2-base-library": "^4.2.0"
     },
     "require-dev": {
