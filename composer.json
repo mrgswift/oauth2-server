@@ -14,21 +14,21 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
-        "illuminate/database": "5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.0.*",
-        "illuminate/console": "5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.0.*",
-        "illuminate/contracts": "5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.0.*",
-        "illuminate/http": "5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.0.*",
-        "illuminate/support": "5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.0.*",
-        "illuminate/config": "5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.0.*",
-        "mrgswift/oauth2-base-library": "^4.1.9"
+        "php": ">=7.3.0",
+        "illuminate/database": "6.0.* || 7.0.*",
+        "illuminate/console": "6.0.* || 7.0.*",
+        "illuminate/contracts": "6.0.* || 7.0.*",
+        "illuminate/http": "6.0.* || 7.0.*",
+        "illuminate/support": "6.0.* || 7.0.*",
+        "illuminate/config": "6.0.* || 7.0.*",
+        "mrgswift/oauth2-base-library": "^4.2.0"
     },
     "require-dev": {
         "orchestra/testbench": "3.1.* || 3.2.*",
-        "phpunit/phpunit": "^4.8 || ^5.0 || ^7.0",
-        "phpspec/phpspec": "^2.2",
-        "mockery/mockery": "^0.9.4",
-        "henrikbjorn/phpspec-code-coverage": "^1.0"
+        "phpunit/phpunit": "^7.0 || ^8.0",
+        "phpspec/phpspec": "^6.0",
+        "mockery/mockery": "^1.3.1",
+        "henrikbjorn/phpspec-code-coverage": "^4.0"
     },
     "autoload": {
         "psr-4": {
