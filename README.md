@@ -15,16 +15,7 @@
 
 > **Note:** This package assumes you have a good-enough knowledge of the principles behind the [OAuth 2.0 authorization specification](http://tools.ietf.org/html/rfc6749).
 
-## Version Compatibility
-
- Laravel  | OAuth Server | PHP
-:---------|:-------------|:----
- 4.0.x    | 1.0.x        |>= 5.3
- 4.1.x    | 1.0.x        |>= 5.3
- 4.2.x    | 3.0.x        |>= 5.4
- 5.0.x    | 4.0.x        |>= 5.4
- 5.1.x    | 5.0.x        |>= 5.5.9
- 5.2.x    | 5.1.x        |>= 5.5.9
+## 
 
 ## Documentation
 
